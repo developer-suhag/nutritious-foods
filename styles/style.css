@@ -1,0 +1,61 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* navbar  */
+.header {
+  position: relative;
+}
+.nav-menu {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+.menu-item {
+  display: inline-block;
+  color: #3c3c3c !important;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 20px;
+  margin: 0 10px;
+}
+.menu-item:hover {
+  border-bottom: 1px solid #0a3d62;
+  color: #0a3d62 !important;
+}
+
+/* hero-section */
+.hero-section {
+  background: url(../assets/img/hero01.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  /* margin-top: -80px; */
+}
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.divider {
+  width: 50%;
+}
+
+/* category-section */
+.category-section {
+  background: url(../assets/yellow-bg.png);
+}
+
+.single-category img {
+  width: 50px;
+}
+.cate-text {
+  font-size: 16px;
+  font-weight: 300;
+}
