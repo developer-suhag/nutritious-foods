@@ -64,6 +64,9 @@ body {
 .specials-section .divider {
   width: 20%;
 }
+.about-section .divider {
+  width: 30%;
+}
 
 /* .special-img {
   width: 200px;
@@ -117,4 +120,17 @@ body {
 .spe-des {
   font-size: 14px;
   font-weight: 300;
+}
+/* about section  */
+.about-section {
+  background: #eeefef;
+}
+.about-text {
+  width: 400px;
+  font-size: 20px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
